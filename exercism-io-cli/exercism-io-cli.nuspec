@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>exercism-io-cli</id>
+    <title>Exercism.io CLI</title>
+    <version>1.7.2</version>
+    <authors>Katrina Owen</authors>
+    <owners>Randy Patterson Jr.</owners>
+    <summary>A Go based command line tool for exercism.io.</summary>
+    <description>
+        Exercism is all about having conversations about code. In order to start having those conversations, you need to
+        install the exercism command line client. The exercism command line client is the all-in-one tool for fetching
+        and submitting code.  Exercism provides a launching point for this to occur. Here's how it works:
+
+        1. You fetch some challenges in the form of README documents. These include associated test suites.
+        2. Then write code in order to make the tests pass.
+        3. Submit the code and begin the conversation with others.
+
+        By repeating this process you will:
+        * Share while discussing how YOU solved the problem.
+        * Learn from others as you discover how they solved the same problem.
+        * Gain experience through repeated practice solving problems.
+    </description>
+    <projectUrl>http://exercism.io</projectUrl>
+    <tags>exercism-io-cli</tags>
+    <copyright>© 2014 Katrina Owen</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/exercism-io-cli.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
