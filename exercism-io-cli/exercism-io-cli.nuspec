@@ -24,7 +24,7 @@
         * Gain experience through repeated practice solving problems.
     </description>
     <projectUrl>http://exercism.io</projectUrl>
-    <tags>exercism-io-cli</tags>
+    <tags>exercism code review peer</tags>
     <copyright>© 2014 Katrina Owen</copyright>
     <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
