@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.7.3.1</version>
+    <version>1.7.4</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -33,7 +33,7 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-        Fix install process due to change in binary packaging (from tgz to zip).
+        Fix bug in windows home dir.
     </releaseNotes>
   </metadata>
   <files>
