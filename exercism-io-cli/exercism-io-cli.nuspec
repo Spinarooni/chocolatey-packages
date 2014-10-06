@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.7.4</version>
+    <version>1.7.5</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -33,7 +33,7 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-        Fix bug in windows home dir.
+        Patch Release - improve error message on failed submit.
     </releaseNotes>
   </metadata>
   <files>
