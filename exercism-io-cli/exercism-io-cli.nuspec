@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.7.5</version>
+    <version>1.8.0</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -33,7 +33,13 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-        Patch Release - improve error message on failed submit.
+        Minor release
+
+        * fix newlines on Windows
+        * create exercism directory as soon as it's configured, instead of on first fetch
+        * improve error messages
+        * add a tracks command to list available languages
+        * support defining config file in environment variables
     </releaseNotes>
   </metadata>
   <files>
