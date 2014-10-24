@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.8.1</version>
+    <version>1.8.2</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -35,9 +35,7 @@
     <releaseNotes>
         Patch release
 
-        This release adds a verbose option to the submit command:
-
-            exercism --debug submit ~/path/to/some/file
+        Make path comparison case insensitive
     </releaseNotes>
   </metadata>
   <files>
