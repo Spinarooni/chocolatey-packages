@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.8.2</version>
+    <version>1.9.0</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -33,9 +33,9 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-        Patch release
+        Minor release - adds new command "download"
 
-        Make path comparison case insensitive
+        This release adds a command exercism download UUID that downloads a person's submission from the website, making it easier to run the tests and experiment with the code.
     </releaseNotes>
   </metadata>
   <files>
