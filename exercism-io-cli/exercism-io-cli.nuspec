@@ -10,18 +10,19 @@
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
     <description>
-        Exercism is all about having conversations about code. In order to start having those conversations, you need to
-        install the exercism command line client. The exercism command line client is the all-in-one tool for fetching
-        and submitting code.  Exercism provides a launching point for this to occur. Here's how it works:
+Exercism is all about having conversations about code. In order to start having those conversations, you need to
+install the exercism command line client. The exercism command line client is the all-in-one tool for fetching
+and submitting code.  Exercism provides a launching point for this to occur. Here's how it works:
 
-        1. You fetch some challenges in the form of README documents. These include associated test suites.
-        2. Then write code in order to make the tests pass.
-        3. Submit the code and begin the conversation with others.
+1. You fetch some challenges in the form of README documents. These include associated test suites.
+2. Then write code in order to make the tests pass.
+3. Submit the code and begin the conversation with others.
 
-        By repeating this process you will:
-        * Share while discussing how YOU solved the problem.
-        * Learn from others as you discover how they solved the same problem.
-        * Gain experience through repeated practice solving problems.
+By repeating this process you will:
+
+* Share while discussing how YOU solved the problem.
+* Learn from others as you discover how they solved the same problem.
+* Gain experience through repeated practice solving problems.
     </description>
     <projectUrl>http://exercism.io</projectUrl>
     <tags>exercism code review peer</tags>
@@ -33,9 +34,10 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-        Minor release - adds new command "download"
+Minor release - adds new command "download"
 
-        This release adds a command exercism download UUID that downloads a person's submission from the website, making it easier to run the tests and experiment with the code.
+This release adds a command exercism download UUID that downloads a person's submission from the website, making it
+easier to run the tests and experiment with the code.
     </releaseNotes>
   </metadata>
   <files>
