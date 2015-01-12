@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>1.9.0</version>
+    <version>1.9.2</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -26,7 +26,7 @@ By repeating this process you will:
     </description>
     <projectUrl>http://exercism.io</projectUrl>
     <tags>exercism code review peer</tags>
-    <copyright>© 2014 Katrina Owen</copyright>
+    <copyright>© 2015 Katrina Owen</copyright>
     <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/Spinarooni/chocolatey-packages/master/exercism-io-cli/exercism.png</iconUrl>
@@ -34,10 +34,7 @@ By repeating this process you will:
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-Minor release - adds new command "download"
-
-This release adds a command exercism download UUID that downloads a person's submission from the website, making it
-easier to run the tests and experiment with the code.
+Patch release - Fix bug in reading config file path from command line argument
     </releaseNotes>
   </metadata>
   <files>
