@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.0.0</version>
+    <version>2.0.2</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -34,22 +34,9 @@ By repeating this process you will:
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-This release adds two new commands:
+####Fixes panic that occurs during first individual fetch on a language
 
-* exercism list $LANGUAGE to display available exercises
-* exercism open $LANGUAGE $PROBLEM to open the most recent iteration of the give problem in the browser.
-* It also adds host connectivity status to both the problems API and the submissions API, to help with tricky troubleshooting issues.
-
-We've finally deleted some legacy stuff:
-
-* We won't read the ~/.exercism.go file. If you want to use that, then set the EXERCISM_CONFIG_FILE environment variable.
-* The login/logout commands are gone. Use the exercism configure command.
-* The deprecated key names in the config have been removed. If you have trouble authenticating, then reconfigure using the exercism configure command.
-
-There are also a couple of bugfixes:
-
-* Expand '~' in config path to home directory
-* Display problems that have not yet been submitted when fetching. This should avoid the support tickets where people are unable to move forward.
+This fixes a bug that only affects certain users, but it's a complete blocker in terms of using the app for those users.
     </releaseNotes>
   </metadata>
   <files>
