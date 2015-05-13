@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.0.2</version>
+    <version>2.1.1</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -34,9 +34,13 @@ By repeating this process you will:
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-####Fixes panic that occurs during first individual fetch on a language
+#### Fix regression in configuration on Windows ####
 
-This fixes a bug that only affects certain users, but it's a complete blocker in terms of using the app for those users.
+----------
+
+This release fixes a regression in how windows paths were handled when configuring the client.
+
+Additionally, it loosens the restrictions on the --test flag that was introduced in the previous release, so that a test file might be included with other files in addition to being submitted alone.
     </releaseNotes>
   </metadata>
   <files>
