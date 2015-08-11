@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.2.0</version>
+    <version>2.2.1</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -34,13 +34,16 @@ By repeating this process you will:
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-#### Minor release -- adds 'upgrade' command ####
+#### Patch Release -- Bug Fixes and Improvements ####
 
 ----------
 
-In addition to the new exercism `upgrade` command, this also improves the error handling around the confusing invalid character &lt; error.
+A couple of bug fixes and improvements to the user experience have been made to the CLI.
 
-For more details about how to install and use, see [Installing the CLI on WIndows](http://help.exercism.io/installing-the-cli-on-windows.html "Installing on Windows") and [Basic Usage](http://cli.exercism.io/).
+* `unsubmit` command will let the user know that it does not take any arguments if arguments are given.
+* Error messages from `upgrade` command have been improved along with a longer timeout for upgrade.
+* `-v` global flag has been removed as it was never working as intended. We've also fixed the `-verbose` output.
+* Paths in the configuration file will now be absolute paths only.
     </releaseNotes>
   </metadata>
   <files>
