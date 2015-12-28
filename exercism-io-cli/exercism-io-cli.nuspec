@@ -5,11 +5,13 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.2.1</version>
+    <version>2.2.3</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
     <description>
+Exercism takes place in two places: the discussions happen on the website, and you work on exercises locally. The CLI bridges the gap, allowing you to fetch exercises and submit solutions to the site.
+
 Exercism is all about having conversations about code. In order to start having those conversations, you need to
 install the exercism command line client. The exercism command line client is the all-in-one tool for fetching
 and submitting code.  Exercism provides a launching point for this to occur. Here's how it works:
@@ -23,8 +25,13 @@ By repeating this process you will:
 * Share while discussing how YOU solved the problem.
 * Learn from others as you discover how they solved the same problem.
 * Gain experience through repeated practice solving problems.
+
+This is a stand-alone binary, which means that you don't need to install any particular language or environment in order to use it. To install, download the archive that matches your operating system and architecture, unpack the archive, and put the binary somewhere on your path. You will need to configure the CLI with your [Exercism API](http://exercism.io/account/key) Key before submitting. For more detailed instructions, see the [CLI page on Exercism](http://exercism.io/cli).
     </description>
     <projectUrl>http://exercism.io</projectUrl>
+    <docsUrl>http://exercism.io/how-it-works</docsUrl>
+    <projectSourceUrl>https://github.com/exercism/cli</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/exercism/cli/issues</bugTrackerUrl>
     <tags>exercism code review peer</tags>
     <copyright>© 2015 Katrina Owen</copyright>
     <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
@@ -34,16 +41,11 @@ By repeating this process you will:
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>
-#### Patch Release -- Bug Fixes and Improvements ####
+#### Recent Changes ####
 
 ----------
 
-A couple of bug fixes and improvements to the user experience have been made to the CLI.
-
-* `unsubmit` command will let the user know that it does not take any arguments if arguments are given.
-* Error messages from `upgrade` command have been improved along with a longer timeout for upgrade.
-* `-v` global flag has been removed as it was never working as intended. We've also fixed the `-verbose` output.
-* Paths in the configuration file will now be absolute paths only.
+* Fix the --version flag so that it outputs just the version, not the entire help text.
     </releaseNotes>
   </metadata>
   <files>
