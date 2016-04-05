@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.2.4</version>
+    <version>2.2.5</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -32,7 +32,7 @@ This is a stand-alone binary, which means that you don't need to install any par
     <docsUrl>http://exercism.io/how-it-works</docsUrl>
     <projectSourceUrl>https://github.com/exercism/cli</projectSourceUrl>
     <bugTrackerUrl>https://github.com/exercism/cli/issues</bugTrackerUrl>
-    <tags>exercism code review peer</tags>
+    <tags>exercism code review learning</tags>
     <copyright>© 2016 Katrina Owen</copyright>
     <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -45,14 +45,13 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-#### Recent Changes ####
+* If you try to submit a directory to exercism, the error message now makes sense.
+* The output from the debug command is improved for users who have not configured their API key.
+* Upgrade command was broken on Linux, this is now fixed.
+* The list of commands in the usage statement has been alphabetized, which makes it a bit easier to read/navigate.
+* Improve the "fetch" hint in the `list` command using the first problem in the language listed as the example.
 
-* You can now submit a comment along with your solution! `exercism submit path/to/file1.ext path/to/file2.ext --comment "I simplified the frobs using wicklets."`
-* Removed verbose encouragement after submitting, as it quickly became noise.
-* Fixed a bug in downloads for exercises that have sub-directories (in the problem or the solution)
-* We create files in 0644 instead of 0755. If you need the executable bit, you'll have to `chmod` it yourself.
-* Increase the timeout to 20 seconds so that slower connections have a chance to complete their calls.
-* Print the current configuration after calling the `configure` command.
+There were also a number of improvements to the contributing documentation.
     </releaseNotes>
   </metadata>
   <files>
