@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.2.5</version>
+    <version>2.2.6</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -45,13 +45,7 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-* If you try to submit a directory to exercism, the error message now makes sense.
-* The output from the debug command is improved for users who have not configured their API key.
-* Upgrade command was broken on Linux, this is now fixed.
-* The list of commands in the usage statement has been alphabetized, which makes it a bit easier to read/navigate.
-* Improve the "fetch" hint in the `list` command using the first problem in the language listed as the example.
-
-There were also a number of improvements to the contributing documentation.
+* This mostly updates usage strings and various feedback after running commands to make the tool easier to use.
     </releaseNotes>
   </metadata>
   <files>
