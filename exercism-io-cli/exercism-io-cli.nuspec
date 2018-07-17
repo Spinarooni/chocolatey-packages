@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>2.4.1</version>
+    <version>3.0.4</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -34,7 +34,7 @@ This is a stand-alone binary, which means that you don't need to install any par
     <projectSourceUrl>https://github.com/exercism/cli</projectSourceUrl>
     <bugTrackerUrl>https://github.com/exercism/cli/issues</bugTrackerUrl>
     <tags>exercism code review learning</tags>
-    <copyright>© 2017 Katrina Owen</copyright>
+    <copyright>© 2018 Katrina Owen</copyright>
     <licenseUrl>https://raw.githubusercontent.com/exercism/cli/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/Spinarooni/chocolatey-packages/master/exercism-io-cli/exercism.png</iconUrl>
@@ -46,9 +46,7 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-Bugfixes
-
-* @Tonkpils fixed the exercism upgrade command for Windows!
+This release fixes a very confusing and unhelpful error message when you try to submit a legacy solution that doesn't have the metadata that the new site requires.
     </releaseNotes>
   </metadata>
   <files>
