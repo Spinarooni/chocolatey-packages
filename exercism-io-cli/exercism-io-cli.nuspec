@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>3.0.4</version>
+    <version>3.0.5</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -29,8 +29,8 @@ By repeating this process you will:
 This is a stand-alone binary, which means that you don't need to install any particular language or environment in order to use it. To install, download the archive that matches your operating system and architecture, unpack the archive, and put the binary somewhere on your path. You will need to configure the CLI with your [Exercism API](http://exercism.io/account/key) Key before submitting. For more detailed instructions, see the [CLI page on Exercism](http://exercism.io/cli).
     </description>
     <packageSourceUrl>https://github.com/Spinarooni/chocolatey-packages</packageSourceUrl>
-    <projectUrl>http://exercism.io</projectUrl>
-    <docsUrl>http://exercism.io/how-it-works</docsUrl>
+    <projectUrl>https://exercism.io</projectUrl>
+    <docsUrl>https://exercism.io/getting-started</docsUrl>
     <projectSourceUrl>https://github.com/exercism/cli</projectSourceUrl>
     <bugTrackerUrl>https://github.com/exercism/cli/issues</bugTrackerUrl>
     <tags>exercism code review learning</tags>
@@ -46,7 +46,7 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-This release fixes a very confusing and unhelpful error message when you try to submit a legacy solution that doesn't have the metadata that the new site requires.
+This release fixes a problem with upgrading on Windows.
     </releaseNotes>
   </metadata>
   <files>
