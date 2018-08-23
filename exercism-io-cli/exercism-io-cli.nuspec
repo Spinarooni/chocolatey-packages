@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>3.0.6</version>
+    <version>3.0.8</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -46,7 +46,7 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-This release adds support for teams, improves a bunch of error messages, and adds debug as an alias for the troubleshoot command.
+This release fixes the broken --uuid flag on the download command.
     </releaseNotes>
   </metadata>
   <files>
