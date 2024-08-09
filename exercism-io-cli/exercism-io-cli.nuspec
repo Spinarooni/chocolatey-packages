@@ -26,7 +26,7 @@ By repeating this process you will:
 * Learn from others as you discover how they solved the same problem.
 * Gain experience through repeated practice solving problems.
 
-This is a stand-alone binary, which means that you don't need to install any particular language or environment in order to use it. To install, download the archive that matches your operating system and architecture, unpack the archive, and put the binary somewhere on your path. You will need to configure the CLI with your [Exercism API](http://exercism.io/account/key) Key before submitting. For more detailed instructions, see the [CLI page on Exercism](http://exercism.io/cli).
+This is a stand-alone binary, which means that you don't need to install any particular language or environment in order to use it. To install, download the archive that matches your operating system and architecture, unpack the archive, and put the binary somewhere on your path. You will need to configure the CLI with your [Exercism API](https://exercism.org/settings/api_cli) Key before submitting. For more detailed instructions, see the [CLI page on Exercism](http://exercism.io/cli).
     </description>
     <packageSourceUrl>https://github.com/Spinarooni/chocolatey-packages</packageSourceUrl>
     <projectUrl>https://exercism.io</projectUrl>
