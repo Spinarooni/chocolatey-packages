@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>exercism-io-cli</id>
     <title>Exercism.io CLI</title>
-    <version>3.4.0</version>
+    <version>3.5.0</version>
     <authors>Katrina Owen</authors>
     <owners>Randy Patterson Jr.</owners>
     <summary>A Go based command line tool for exercism.io.</summary>
@@ -46,13 +46,8 @@ This is a stand-alone binary, which means that you don't need to install any par
 
 ----------
 
-- Update exercism test to use Gradle wrapper to test Java exercise
-- Add support for Pyret to exercism test
-- Add support for J to exercism test
-- exercism open does not require specifying the directory (defaults to current directory)
-- exercism troubleshoot suggests to open forum post instead of GitHub issue
-- Update the help text for exercism submit to indicate specifying files is optional
-- Fixed release notes link
+- Add support for Batch to exercism test
+- Fix duplicated t alias
     </releaseNotes>
   </metadata>
   <files>
